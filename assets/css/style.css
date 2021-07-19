@@ -186,14 +186,13 @@ section {
   margin-right: 6px;
 }
 
-.header .logo h1 {
-  font-size: 20px;
-  font-weight: bold;
+.header .logo span {
+  font-size: 30px;
+  font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
-  display: inline-block;
 }
 
 /*--------------------------------------------------------------
@@ -431,8 +430,8 @@ section {
 
 .hero h1 {
   margin: 0;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 600;
   color: #012970;
 }
 
