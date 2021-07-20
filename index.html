@@ -25,8 +25,9 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+  <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/floating-wpp.min.js"></script>
+  <link rel="stylesheet" href="assets/css/floating-wpp.min.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -35,13 +36,11 @@
 </head>
 
 <body>
-<a href="https://api.whatsapp.com/send?phone=+918340121374&text=Hi." class="float" target="_blank">
-<i class="fa fa-whatsapp my-float"></i>
-</a>
+
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
+    
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
         <span>Vindyasri</span>&nbsp;
@@ -1362,7 +1361,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+<div id="myDiv"></div>
 </body>
-
+<script type="text/javascript">
+  $(function () {
+    $('#myDiv').floatingWhatsApp({
+      phone: '918340121374'
+    });
+  });
+</script>
 </html>
