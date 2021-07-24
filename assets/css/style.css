@@ -2359,3 +2359,15 @@ section {
   font-size: 13px;
   color: #012970;
 }
+.wrapper {
+  display: inline-block;
+  height: 350px;
+  width: 650px;
+  
+}
+
+.wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
